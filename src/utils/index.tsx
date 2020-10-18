@@ -31,5 +31,3 @@ export const navLinks = [
     url: "#contact",
   },
 ];
-
-export const colors = {};

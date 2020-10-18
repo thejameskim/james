@@ -32,7 +32,7 @@ const StyledMainContainer = styled.main`
   }
 `;
 
-export function Main() {
+export function Main(): JSX.Element {
   return (
     <Fragment>
       <GlobalStyle />

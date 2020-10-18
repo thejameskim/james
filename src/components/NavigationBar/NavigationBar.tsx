@@ -3,7 +3,7 @@ import * as styles from "./styles";
 import { navLinks } from "../../utils";
 import { Logo } from "../../assets";
 
-export function NavigationBar() {
+export function NavigationBar(): JSX.Element {
   return (
     <styles.NavBar>
       <a href='/'>

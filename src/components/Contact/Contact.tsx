@@ -1,7 +1,7 @@
 import React from "react";
 import * as styles from "./styles";
 
-export function Contact() {
+export function Contact(): JSX.Element {
 
   return (
     <styles.Contact id="contact">
