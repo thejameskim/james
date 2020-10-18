@@ -6,7 +6,10 @@ export function Contact(): JSX.Element {
   return (
     <styles.Contact id='contact'>
       <h2>Contact</h2>
-      <p>Feel free to reach out to me if you have any questions or would like to connect!</p>
+      <p>
+        Feel free to reach out to me if you have any questions or would like to
+        connect!
+      </p>
       <styles.SocialMediaLinks>
         {socialMedia.map((link) => {
           return (

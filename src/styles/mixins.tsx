@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled, { css } from "styled-components";
 
 export const link = css`
   a {
@@ -25,14 +25,14 @@ export const link = css`
 
 export const buttonHover = css`
   &:hover,
-  &:focus { 
+  &:focus {
     background-color: var(--tan-tint);
   }
 `;
 
 export const hover = css`
   &:hover,
-  &:focus { 
+  &:focus {
     color: var(--tan);
   }
 `;
