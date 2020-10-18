@@ -7,7 +7,8 @@ export function Headline() {
   const name = <h2>James Kim</h2>;
   const summary = (
     <p>
-      I'm a full-stack software engineer working on Bitbucket Cloud at Atlassian.
+      I'm a full-stack software engineer located in the Seattle area, working on Bitbucket Cloud for
+      Atlassian.
     </p>
   );
   const contact = (

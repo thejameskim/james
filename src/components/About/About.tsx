@@ -9,8 +9,8 @@ export function About() {
       <styles.Content>
         <styles.Description>
           <p>
-            Hey, James here! I'm currently working on Bitbucket Cloud at
-            Atlassian. I recently graduated from the University of Washington's{" "}
+            Hey, James here! I recently joined Atlassian as a new grad software
+            engineer. I recently graduated from the University of Washington's{" "}
             <a target='_blank' href='https://ischool.uw.edu/'>
               Information School
             </a>

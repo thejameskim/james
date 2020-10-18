@@ -4,6 +4,8 @@ import styled from "styled-components";
 import GlobalStyle from "../styles/globalStyle";
 
 import { About } from "./About";
+import { Contact } from "./Contact";
+import { Experience } from "./Experience";
 import { Headline } from "./Headline";
 import { NavigationBar } from "./NavigationBar";
 
@@ -36,9 +38,11 @@ export function Main() {
       <GlobalStyle />
       <StyledContent>
         <NavigationBar />
-        <StyledMainContainer className='mainContent'>
+        <StyledMainContainer className="mainContent">
           <Headline />
           <About />
+          <Experience />
+          <Contact />
         </StyledMainContainer>
       </StyledContent>
     </Fragment>
