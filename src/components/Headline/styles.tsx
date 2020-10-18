@@ -10,20 +10,20 @@ export const Headline = styled.section`
   h1 {
     margin: 0 0 30px 4px;
     font-family: var(--font-mono);
-    font-size: clamp(var(--font-md), 5vw, var(--font-lg));
+    font-size: clamp(var(--font-lg), 5vw, var(--font-xl));
     font-weight: 400;
     color: var(--tan);
   }
 
   h2 {
     margin: 0;
-    font-size: clamp(40px, 8vw, 80px);
+    font-size: clamp(60px, 10vw, 100px);
   }
 
   p {
     margin: 20px 0 0;
     max-width: 500px;
-    font-size: clamp(var(--font-md), 5vh, var(--font-lg));
+    font-size: clamp(var(--font-lg), 5vh, var(--font-xl));
   }
 
   .emailLink {

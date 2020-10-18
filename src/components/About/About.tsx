@@ -25,7 +25,8 @@ export function About(): JSX.Element {
             <li>code</li>
             <li>go biking</li>
             <li>binge watch Korean dramas</li>
-            <li>or play video games.</li>
+            <li>play video games</li>
+            <li>or travel</li>
           </ul>
         </styles.Description>
         <styles.ProfilePicture>

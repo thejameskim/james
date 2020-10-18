@@ -16,7 +16,7 @@ const StyledContent = styled.div`
 `;
 
 const StyledMainContainer = styled.main`
-  margin: 0 auto;
+  margin: var(--navbar-height) auto 0;
   width: 100%;
   max-width: 1600px;
   min-height: 100vh;

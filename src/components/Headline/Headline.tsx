@@ -1,9 +1,9 @@
 import React from "react";
 import * as styles from "./styles";
-import { email } from "../../utils";
+import { email } from "../../data";
 
 export function Headline(): JSX.Element {
-  const greeting = <h1>Hello, my name is</h1>;
+  const greeting = <h1>Hey, my name is</h1>;
   const name = <h2>James Kim</h2>;
   const summary = (
     <p>

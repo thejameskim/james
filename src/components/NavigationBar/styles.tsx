@@ -2,13 +2,15 @@ import styled from "styled-components";
 import { link, buttonHover } from "../../styles/mixins";
 
 export const NavBar = styled.div`
+  background-color: var(--blue);
+  position: fixed;
+  top: 0;
   display: flex;
   justify-content: space-between;
   width: 100%;
   height: var(--navbar-height);
   padding: 0px 50px;
   align-items: center;
-  position: relative;
 `;
 
 export const NavBarLogo = styled.div`
@@ -18,6 +20,10 @@ export const NavBarLogo = styled.div`
   font-size: var(--font-md);
   height: 50px;
   width: 50px;
+  
+  svg:hover {
+    fill: var(--tan-tint);
+  }
 `;
 
 export const NavBarLinks = styled.div`

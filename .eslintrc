@@ -8,5 +8,9 @@
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended"
   ],
-  "rules": {}
+  "rules": {
+    "@typescript-eslint/no-var-requires": 0,
+    "@typescript-eslint/no-unused-vars": 0,
+    "react/no-unknown-property": 0
+  }
 }

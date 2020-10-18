@@ -19,7 +19,7 @@ export function NavigationBar(): JSX.Element {
             </styles.NavBarLink>
           ))}
         </styles.Link>
-        <styles.NavBarResumeButton href='/resume.pdf' target='_blank'>
+        <styles.NavBarResumeButton href="./resume.pdf" target='_blank'>
           Resume
         </styles.NavBarResumeButton>
       </styles.NavBarLinks>
