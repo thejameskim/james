@@ -20,7 +20,7 @@ export function About(): JSX.Element {
             My interests currently lie in tech, but I also have interests in
             healthcare and philanthropy work.
           </p>
-          In my spare time I like to
+          In my spare time I like to:
           <ul>
             <li>code</li>
             <li>bike</li>
