@@ -9,12 +9,12 @@ export function About(): JSX.Element {
       <styles.Content>
         <styles.Description>
           <p>
-            Hey, James here! I recently joined Atlassian as a new grad software
-            engineer. I recently graduated from the University of Washington&apos;s{" "}
-            <a target='_blank' rel="noreferrer" href='https://ischool.uw.edu/'>
+            Hey, James here! I recently graduated from the University of
+            Washington&apos;s{" "}
+            <a target='_blank' rel='noreferrer' href='https://ischool.uw.edu/'>
               Information School
-            </a>
-            .
+            </a>{" "}
+            and joined Atlassian as a new grad software engineer.
           </p>
           <p>
             My interests currently lie in tech, but I also have interests in
@@ -23,7 +23,7 @@ export function About(): JSX.Element {
           In my spare time I like to
           <ul>
             <li>code</li>
-            <li>go biking</li>
+            <li>bike</li>
             <li>binge watch Korean dramas</li>
             <li>play video games</li>
             <li>or travel</li>
