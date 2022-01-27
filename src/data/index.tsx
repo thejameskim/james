@@ -29,7 +29,7 @@ export const socialMedia: SocialMedia[] = [
   },
   {
     name: "GitHub",
-    url: "http://github.com/thejameskim",
+    url: "https://github.com/thejameskim",
     icon: GitHubIcon(),
   },
   {
