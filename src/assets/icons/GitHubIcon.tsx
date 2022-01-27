@@ -6,7 +6,7 @@ const GithubIcon = (): JSX.Element => (
     focusable='false'
     data-icon='github'
     role='img'
-    xmlns='http://www.w3.org/2000/svg'
+    xmlns='https://www.w3.org/2000/svg'
     viewBox='0 0 496 512'
   >
     <path
